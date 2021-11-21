@@ -9,6 +9,7 @@ python main.py --dataset yelp2018 --dim 64 --lr 0.001 --batch_size 2048 --gpu_id
 
 python main.py --dataset amazon --dim 64 --lr 0.001 --batch_size 2048 --gpu_id 0 --context_hops 3 --pool mean --ns mixgcf --K 1 --n_negs 16 --gnn lightgcn --topk 3
 ```
+The running environment and command are basically the same with an addition --topk arguement.
 ------
 ### Original Readme
 This is our PyTorch implementation for the paper:
