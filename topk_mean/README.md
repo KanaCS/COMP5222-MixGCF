@@ -10,7 +10,8 @@ python main.py --dataset yelp2018 --dim 64 --lr 0.001 --batch_size 2048 --gpu_id
 
 python main.py --dataset amazon --dim 64 --lr 0.001 --batch_size 2048 --gpu_id 0 --context_hops 3 --pool mean --ns mixgcf --K 1 --n_negs 16 --gnn lightgcn --topk 3
 ```
-
+------
+### Original Readme
 This is our PyTorch implementation for the paper:
 
 > Tinglin Huang, Yuxiao Dong, Ming Ding, Zhen Yang, Wenzheng Feng, Xinyu Wang, Jie Tang (2021). MixGCF: An Improved Training Method for Graph Neural Network-based Recommender Systems.  [Paper link](http://keg.cs.tsinghua.edu.cn/jietang/publications/KDD21-Huang-et-al-MixGCF.pdf). In KDD'2021, Virtual Event, Singapore, August 14-18, 2021.
